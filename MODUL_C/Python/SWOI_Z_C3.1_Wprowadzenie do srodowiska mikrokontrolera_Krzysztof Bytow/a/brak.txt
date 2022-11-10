@@ -1,0 +1,1 @@
+implementacje nie wymagaj¹ kodu, Arduino pe³ni rolê zasilacza.

@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="7"/>
+    <General>
+      <MainUnit Value="0"/>
+      <TargetFileExt Value=""/>
+      <Icon Value="0"/>
+      <UseXPManifest Value="True"/>
+      <ActiveEditorIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <ProjectVersion Value=""/>
+      <Language Value=""/>
+      <CharSet Value=""/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="7">
+      <Unit0>
+        <Filename Value="projekt.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="projekt"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="puzzle.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Okno"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="puzzle"/>
+        <CursorPos X="50" Y="87"/>
+        <TopLine Value="42"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../../../../../usr/share/lazarus/lcl/extctrls.pp"/>
+        <UnitName Value="ExtCtrls"/>
+        <CursorPos X="3" Y="1089"/>
+        <TopLine Value="1073"/>
+        <UsageCount Value="9"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../../../../../usr/share/lazarus/lcl/menus.pp"/>
+        <UnitName Value="Menus"/>
+        <CursorPos X="3" Y="353"/>
+        <TopLine Value="337"/>
+        <UsageCount Value="9"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../../../../../usr/lib/fpc/2.4.0/source/rtl/objpas/objpas.pp"/>
+        <UnitName Value="objpas"/>
+        <CursorPos X="8" Y="28"/>
+        <TopLine Value="12"/>
+        <UsageCount Value="9"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../../../../../usr/share/lazarus/lcl/forms.pp"/>
+        <UnitName Value="Forms"/>
+        <CursorPos X="3" Y="628"/>
+        <TopLine Value="612"/>
+        <UsageCount Value="9"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../../../../../usr/share/lazarus/lcl/stdctrls.pp"/>
+        <UnitName Value="StdCtrls"/>
+        <CursorPos X="3" Y="1424"/>
+        <TopLine Value="1408"/>
+        <UsageCount Value="9"/>
+      </Unit6>
+    </Units>
+    <JumpHistory Count="12" HistoryIndex="11">
+      <Position1>
+        <Filename Value="puzzle.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="puzzle.pas"/>
+        <Caret Line="34" Column="20" TopLine="1"/>
+      </Position2>
+      <Position3>
+        <Filename Value="puzzle.pas"/>
+        <Caret Line="52" Column="44" TopLine="22"/>
+      </Position3>
+      <Position4>
+        <Filename Value="puzzle.pas"/>
+        <Caret Line="9" Column="28" TopLine="6"/>
+      </Position4>
+      <Position5>
+        <Filename Value="puzzle.pas"/>
+        <Caret Line="29" Column="15" TopLine="1"/>
+      </Position5>
+      <Position6>
+        <Filename Value="puzzle.pas"/>
+        <Caret Line="32" Column="38" TopLine="11"/>
+      </Position6>
+      <Position7>
+        <Filename Value="puzzle.pas"/>
+        <Caret Line="17" Column="22" TopLine="1"/>
+      </Position7>
+      <Position8>
+        <Filename Value="puzzle.pas"/>
+        <Caret Line="33" Column="17" TopLine="1"/>
+      </Position8>
+      <Position9>
+        <Filename Value="puzzle.pas"/>
+        <Caret Line="39" Column="13" TopLine="21"/>
+      </Position9>
+      <Position10>
+        <Filename Value="puzzle.pas"/>
+        <Caret Line="15" Column="21" TopLine="1"/>
+      </Position10>
+      <Position11>
+        <Filename Value="puzzle.pas"/>
+        <Caret Line="16" Column="16" TopLine="1"/>
+      </Position11>
+      <Position12>
+        <Filename Value="puzzle.pas"/>
+        <Caret Line="32" Column="39" TopLine="1"/>
+      </Position12>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="8"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)/"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

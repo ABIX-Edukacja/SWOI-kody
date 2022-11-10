@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1310301952"/>
+  <Params Value=" -MObjFPC -Scgi -O1 -gl -WG -vewnhi -l -Fi/home/piorek/praca/fwioo/Ubermanowicz/A2-3/ -Fu/usr/share/lazarus/lcl/units/x86_64-linux/ -Fu/usr/share/lazarus/lcl/units/x86_64-linux/gtk2/ -Fu/usr/share/lazarus/packager/units/x86_64-linux/ -Fu/home/piorek/praca/fwioo/Ubermanowicz/A2-3/ -Fu. -FE/home/piorek/praca/fwioo/Ubermanowicz/A2-3/ -oprojekt -dLCL -dLCLgtk2 projekt.lpr"/>
+</CONFIG>

@@ -1,0 +1,11 @@
+#canvas {
+  position: relative;
+  display: block;
+  margin: 20px auto 0;
+  border: 3px solid #999;
+}
+
+div {
+  max-width: 700px;
+  margin: 20px auto;
+}

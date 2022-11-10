@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="7"/>
+    <General>
+      <MainUnit Value="0"/>
+      <TargetFileExt Value=""/>
+      <Icon Value="0"/>
+      <UseXPManifest Value="True"/>
+      <ActiveEditorIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <ProjectVersion Value=""/>
+      <Language Value=""/>
+      <CharSet Value=""/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="projekt.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="projekt"/>
+        <CursorPos X="7" Y="8"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="28"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="wieze_hanoi.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Okno"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="wieze_hanoi"/>
+        <CursorPos X="30" Y="91"/>
+        <TopLine Value="69"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="28"/>
+        <Loaded Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="28" HistoryIndex="27">
+      <Position1>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="43" Column="14" TopLine="6"/>
+      </Position1>
+      <Position2>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="104" Column="42" TopLine="65"/>
+      </Position2>
+      <Position3>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="55" Column="31" TopLine="34"/>
+      </Position3>
+      <Position4>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="61" Column="7" TopLine="42"/>
+      </Position4>
+      <Position5>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="110" Column="6" TopLine="68"/>
+      </Position5>
+      <Position6>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="22" Column="21" TopLine="1"/>
+      </Position6>
+      <Position7>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="44" Column="15" TopLine="19"/>
+      </Position7>
+      <Position8>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="107" Column="23" TopLine="74"/>
+      </Position8>
+      <Position9>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="57" Column="61" TopLine="56"/>
+      </Position9>
+      <Position10>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="58" Column="61" TopLine="56"/>
+      </Position10>
+      <Position11>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="59" Column="61" TopLine="56"/>
+      </Position11>
+      <Position12>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="60" Column="61" TopLine="56"/>
+      </Position12>
+      <Position13>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="61" Column="61" TopLine="56"/>
+      </Position13>
+      <Position14>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="62" Column="61" TopLine="56"/>
+      </Position14>
+      <Position15>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="61" Column="61" TopLine="56"/>
+      </Position15>
+      <Position16>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="60" Column="61" TopLine="56"/>
+      </Position16>
+      <Position17>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="59" Column="61" TopLine="56"/>
+      </Position17>
+      <Position18>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="58" Column="61" TopLine="56"/>
+      </Position18>
+      <Position19>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="59" Column="61" TopLine="56"/>
+      </Position19>
+      <Position20>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="60" Column="61" TopLine="56"/>
+      </Position20>
+      <Position21>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="61" Column="61" TopLine="56"/>
+      </Position21>
+      <Position22>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="62" Column="29" TopLine="37"/>
+      </Position22>
+      <Position23>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="118" Column="11" TopLine="79"/>
+      </Position23>
+      <Position24>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="68" Column="44" TopLine="27"/>
+      </Position24>
+      <Position25>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="55" Column="23" TopLine="53"/>
+      </Position25>
+      <Position26>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="50" Column="11" TopLine="39"/>
+      </Position26>
+      <Position27>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="97" Column="30" TopLine="77"/>
+      </Position27>
+      <Position28>
+        <Filename Value="wieze_hanoi.pas"/>
+        <Caret Line="22" Column="43" TopLine="17"/>
+      </Position28>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="8"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)/"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

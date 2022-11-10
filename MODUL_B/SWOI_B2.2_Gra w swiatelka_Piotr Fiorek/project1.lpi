@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <General>
+      <MainUnit Value="0"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <Language Value=""/>
+      <CharSet Value=""/>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="project1"/>
+        <UsageCount Value="23"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="swiatelka.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="swiatelka"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="44"/>
+        <CursorPos X="1" Y="141"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="13" HistoryIndex="12">
+      <Position1>
+        <Filename Value="swiatelka.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="swiatelka.pas"/>
+        <Caret Line="23" Column="20" TopLine="1"/>
+      </Position2>
+      <Position3>
+        <Filename Value="swiatelka.pas"/>
+        <Caret Line="38" Column="17" TopLine="2"/>
+      </Position3>
+      <Position4>
+        <Filename Value="swiatelka.pas"/>
+        <Caret Line="44" Column="16" TopLine="8"/>
+      </Position4>
+      <Position5>
+        <Filename Value="swiatelka.pas"/>
+        <Caret Line="49" Column="10" TopLine="14"/>
+      </Position5>
+      <Position6>
+        <Filename Value="swiatelka.pas"/>
+        <Caret Line="76" Column="43" TopLine="35"/>
+      </Position6>
+      <Position7>
+        <Filename Value="swiatelka.pas"/>
+        <Caret Line="94" Column="26" TopLine="56"/>
+      </Position7>
+      <Position8>
+        <Filename Value="swiatelka.pas"/>
+        <Caret Line="160" Column="50" TopLine="124"/>
+      </Position8>
+      <Position9>
+        <Filename Value="swiatelka.pas"/>
+        <Caret Line="102" Column="35" TopLine="83"/>
+      </Position9>
+      <Position10>
+        <Filename Value="swiatelka.pas"/>
+        <Caret Line="85" Column="7" TopLine="64"/>
+      </Position10>
+      <Position11>
+        <Filename Value="swiatelka.pas"/>
+        <Caret Line="84" Column="33" TopLine="67"/>
+      </Position11>
+      <Position12>
+        <Filename Value="swiatelka.pas"/>
+        <Caret Line="64" Column="75" TopLine="32"/>
+      </Position12>
+      <Position13>
+        <Filename Value="swiatelka.pas"/>
+        <Caret Line="67" Column="8" TopLine="39"/>
+      </Position13>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

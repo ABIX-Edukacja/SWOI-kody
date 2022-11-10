@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="7"/>
+    <General>
+      <MainUnit Value="0"/>
+      <TargetFileExt Value=""/>
+      <Icon Value="0"/>
+      <UseXPManifest Value="True"/>
+      <ActiveEditorIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <ProjectVersion Value=""/>
+      <Language Value=""/>
+      <CharSet Value=""/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="project1"/>
+        <UsageCount Value="22"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="zycie.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="zycie"/>
+        <CursorPos X="1" Y="152"/>
+        <TopLine Value="105"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="11" HistoryIndex="10">
+      <Position1>
+        <Filename Value="zycie.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="zycie.pas"/>
+        <Caret Line="38" Column="3" TopLine="2"/>
+      </Position2>
+      <Position3>
+        <Filename Value="zycie.pas"/>
+        <Caret Line="40" Column="6" TopLine="3"/>
+      </Position3>
+      <Position4>
+        <Filename Value="zycie.pas"/>
+        <Caret Line="51" Column="16" TopLine="14"/>
+      </Position4>
+      <Position5>
+        <Filename Value="zycie.pas"/>
+        <Caret Line="57" Column="17" TopLine="21"/>
+      </Position5>
+      <Position6>
+        <Filename Value="zycie.pas"/>
+        <Caret Line="62" Column="5" TopLine="27"/>
+      </Position6>
+      <Position7>
+        <Filename Value="zycie.pas"/>
+        <Caret Line="56" Column="30" TopLine="24"/>
+      </Position7>
+      <Position8>
+        <Filename Value="zycie.pas"/>
+        <Caret Line="26" Column="52" TopLine="1"/>
+      </Position8>
+      <Position9>
+        <Filename Value="zycie.pas"/>
+        <Caret Line="83" Column="3" TopLine="57"/>
+      </Position9>
+      <Position10>
+        <Filename Value="zycie.pas"/>
+        <Caret Line="86" Column="91" TopLine="64"/>
+      </Position10>
+      <Position11>
+        <Filename Value="zycie.pas"/>
+        <Caret Line="154" Column="1" TopLine="119"/>
+      </Position11>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="8"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)/"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

@@ -1,0 +1,51 @@
+object Okno: TOkno
+  Left = 403
+  Height = 373
+  Top = 185
+  Width = 300
+  Caption = 'Przesuwanka'
+  ClientHeight = 348
+  ClientWidth = 300
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '0.9.28.2'
+  object Label1: TLabel
+    Left = 8
+    Height = 51
+    Top = 296
+    Width = 281
+    Caption = 'GRATULACJE!'
+    Font.Height = -43
+    ParentColor = False
+    ParentFont = False
+  end
+  object MainMenu1: TMainMenu
+    left = 32
+    top = 8
+    object MenuItem1: TMenuItem
+      Caption = 'Rozrzucenie'
+      object MenuItem3: TMenuItem
+        Caption = 'Łatwo'
+        OnClick = Rozrzuc
+      end
+      object MenuItem4: TMenuItem
+        Tag = 1
+        Caption = 'Średnio'
+        OnClick = Rozrzuc
+      end
+      object MenuItem5: TMenuItem
+        Tag = 2
+        Caption = 'Trudno'
+        OnClick = Rozrzuc
+      end
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'Ułożenie'
+      object MenuItem6: TMenuItem
+        Caption = 'Ułóż'
+        OnClick = Uloz
+      end
+    end
+  end
+end
